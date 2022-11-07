@@ -19,13 +19,13 @@ class MyApp extends StatelessWidget {
                   height: 500,
                   width: 50,
                   decoration: const BoxDecoration(
-                      color: Colors.blue,
+                      color: Color.fromARGB(255, 0, 140, 255),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(20),
                           bottomLeft: Radius.circular(20))),
                   child: const Center(
                     child: Text(
-                      'S',
+                      'F',
                       style: TextStyle(
                           decoration: TextDecoration.none, color: Colors.black),
                       textAlign: TextAlign.center,
@@ -35,10 +35,10 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 500,
                   width: 50,
-                  color: Colors.lightBlueAccent,
+                  color: Color.fromARGB(255, 24, 182, 255),
                   child: const Center(
                     child: Text(
-                      'A',
+                      'L',
                       style: TextStyle(
                           decoration: TextDecoration.none, color: Colors.black),
                       textAlign: TextAlign.center,
@@ -49,11 +49,11 @@ class MyApp extends StatelessWidget {
                   height: 500,
                   width: 50,
                   decoration: const BoxDecoration(
-                    color: Colors.white,
+                    color: Color.fromARGB(255, 64, 194, 255),
                   ),
                   child: const Center(
                     child: Text(
-                      'R',
+                      'U',
                       style: TextStyle(
                           decoration: TextDecoration.none, color: Colors.black),
                     ),
@@ -62,10 +62,10 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 500,
                   width: 50,
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 97, 203, 253),
                   child: const Center(
                     child: Text(
-                      'D',
+                      'T',
                       style: TextStyle(
                           decoration: TextDecoration.none, color: Colors.black),
                       textAlign: TextAlign.center,
@@ -75,10 +75,23 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 500,
                   width: 50,
-                  color: Colors.lightBlueAccent,
+                  color: Color.fromARGB(255, 64, 194, 255),
                   child: const Center(
                     child: Text(
-                      'O',
+                      'T',
+                      style: TextStyle(
+                          color: Colors.black, decoration: TextDecoration.none),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
+                Container(
+                  height: 500,
+                  width: 50,
+                  color: Color.fromARGB(255, 24, 182, 255),
+                  child: const Center(
+                    child: Text(
+                      'E',
                       style: TextStyle(
                           color: Colors.black, decoration: TextDecoration.none),
                       textAlign: TextAlign.center,
@@ -89,10 +102,12 @@ class MyApp extends StatelessWidget {
                   height: 500,
                   width: 50,
                   decoration: const BoxDecoration(
-                      color: Colors.blue, borderRadius: BorderRadius.only(
+                      color: Color.fromARGB(255, 0, 140, 255),
+                       borderRadius: BorderRadius.only(
                         topRight: Radius.circular(20),
                         bottomRight: Radius.circular(20),
                       )),
+                
                   child: const Center(
                     child: Text(
                       'R',
